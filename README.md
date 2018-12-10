@@ -16,5 +16,11 @@ Animation V2 is designed to work with 2018.3 and is currently incompatible with 
 
 The maximum supported version for Animation V1 is 2018.2. For future experimentation with this feature we highly recommend moving to 2018.3 to use Animation V2.
 
+## Upgrade Path:
+Animation data from your V1 projects should work in Animation V2.
+
+Please share your experience with the tools in the forums: . How does this feature help you achieve your desired outcomes? What works as expected? And what doesn’t? We’re excited to hear back from you! 
+
+
 ## :exclamation::exclamation::exclamation: Warning :exclamation::exclamation::exclamation:
 **Project backward compatibility between Preview versions is NOT GUARANTEED. Always backup your project before updating the package. Preview features here are not production ready, please DO NOT use this package for your final production. Preview features may be discontinued/dropped.**
