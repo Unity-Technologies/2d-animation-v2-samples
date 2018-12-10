@@ -22,5 +22,5 @@ Animation data from your V1 projects should work in Animation V2.
 Please share your experience with the tools in the forums: . How does this feature help you achieve your desired outcomes? What works as expected? And what doesn’t? We’re excited to hear back from you! 
 
 
-## :exclamation::exclamation::exclamation: Warning :exclamation::exclamation::exclamation:
+## :warning: :warning: :warning: Warning :warning: :warning: :warning:
 **Project backward compatibility between Preview versions is NOT GUARANTEED. Always backup your project before updating the package. Preview features here are not production ready, please DO NOT use this package for your final production. Preview features may be discontinued/dropped.**
