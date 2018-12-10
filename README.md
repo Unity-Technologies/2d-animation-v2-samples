@@ -1,4 +1,4 @@
-# 2d-animation-v2-samples
+# 2D Animation v2 Samples
 This repository contains samples for 2D Animation v2 features to be used with Unity 2018.3
 
 ## In this version
@@ -12,12 +12,12 @@ This repository contains samples for 2D Animation v2 features to be used with Un
 4. Get **Documentation** by following the link in the Package Manager
 
 ## Compatibility
-Animation V2 is designed to work with 2018.3 and is currently incompatible with any other version (this includes 2019.1).
+Animation v2 is designed to work with 2018.3 and is currently incompatible with any other version (this includes 2019.1).
 
-The maximum supported version for Animation V1 is 2018.2. For future experimentation with this feature we highly recommend moving to 2018.3 to use Animation V2.
+The maximum supported version for Animation v1 is 2018.2. For future experimentation with this feature we highly recommend moving to 2018.3 to use Animation v2.
 
 ## Upgrade Path
-Animation data from your V1 projects should work in Animation V2.
+Animation data from your v1 projects should work in Animation v2.
 
 Please share your experience with the tools in the forums: . How does this feature help you achieve your desired outcomes? What works as expected? And what doesn’t? We’re excited to hear back from you! 
 
