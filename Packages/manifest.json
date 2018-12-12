@@ -36,11 +36,11 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0",
-    "com.unity.2d.common": "1.0.11-preview.4",
-    "com.unity.2d.ik": "1.0.7-preview.2",
-    "com.unity.2d.animation": "2.0.0-preview.13",
-    "com.unity.2d.psdimporter": "1.0.0-preview.10",
-    "com.unity.2d.triangle": "1.0.3-preview"
+    "com.unity.2d.common": "1.0.11-preview.1",
+    "com.unity.2d.ik": "1.0.7-preview.1",
+    "com.unity.2d.animation": "2.0.0-preview.1",
+    "com.unity.2d.psdimporter": "1.0.0-preview.1",
+    "com.unity.2d.triangle": "1.0.2-preview.1"
   },
-  "registry": "https://api.bintray.com/npm/unity/unity-dev"
+  "registry": "https://staging-packages.unity.com"
 }
