@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "com.unity.2d.animation": "2.0.0-preview.1",
+    "com.unity.2d.ik": "1.0.7-preview.1",
+    "com.unity.2d.psdimporter": "1.0.0-preview.1",
     "com.unity.ads": "2.3.1",
     "com.unity.analytics": "3.2.2",
     "com.unity.collab-proxy": "1.2.15",
@@ -35,12 +38,6 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "com.unity.2d.common": "1.0.11-preview.1",
-    "com.unity.2d.ik": "1.0.7-preview.1",
-    "com.unity.2d.animation": "2.0.0-preview.1",
-    "com.unity.2d.psdimporter": "1.0.0-preview.1",
-    "com.unity.2d.triangle": "1.0.2-preview.1"
-  },
-  "registry": "https://staging-packages.unity.com"
+    "com.unity.modules.xr": "1.0.0"
+  }
 }
