@@ -1,103 +1,294 @@
 fileFormatVersion: 2
 guid: 11f8561e37dc241a2a5e29f925d39c10
 ScriptedImporter:
-  fileIDToRecycleName:
-    100000: Fei_GO/Fei_GO
-    100002: Fei_GO/Fei_GO/amulet
-    100004: Fei_GO/Fei_GO/body
-    100006: Fei_GO/Fei_GO/bone_1
-    100008: Fei_GO/Fei_GO/bone_1/bone_2
-    100010: Fei_GO/Fei_GO/bone_1/bone_2/bone_3
-    100012: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_4
-    100014: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_4/bone_5
-    100016: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_4/bone_5/bone_6
-    100018: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_4/bone_5/bone_6/bone_7
-    100020: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_8
-    100022: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_8/bone_9
-    100024: Fei_GO/Fei_GO/bone_1/bone_2/bone_10
-    100026: Fei_GO/Fei_GO/bone_1/bone_2/bone_10/bone_11
-    100028: Fei_GO/Fei_GO/bone_1/bone_2/bone_10/bone_11/bone_12
-    100030: Fei_GO/Fei_GO/bone_1/bone_2/bone_13
-    100032: Fei_GO/Fei_GO/bone_1/bone_2/bone_13/bone_14
-    100034: Fei_GO/Fei_GO/bone_1/bone_2/bone_13/bone_14/bone_15
-    100036: Fei_GO/Fei_GO/bone_1/bone_16
-    100038: Fei_GO/Fei_GO/bone_1/bone_16/bone_17
-    100040: Fei_GO/Fei_GO/bone_1/bone_16/bone_17/bone_18
-    100042: Fei_GO/Fei_GO/bone_1/bone_19
-    100044: Fei_GO/Fei_GO/bone_1/bone_19/bone_20
-    100046: Fei_GO/Fei_GO/bone_1/bone_19/bone_20/bone_21
-    100048: Fei_GO/Fei_GO/hair
-    100050: Fei_GO/Fei_GO/head
-    100052: Fei_GO/Fei_GO/left_arm
-    100054: Fei_GO/Fei_GO/left_leg
-    100056: Fei_GO/Fei_GO/right_arm
-    100058: Fei_GO/Fei_GO/right_leg
-    100060: Fei_GO/Fei_GO/scarf
-    100062: Fei_GO/Fei_GO/staff
-    400000: Fei_GO/Fei_GO/Transform
-    400002: Fei_GO/Fei_GO/amulet/Transform
-    400004: Fei_GO/Fei_GO/body/Transform
-    400006: Fei_GO/Fei_GO/bone_1/Transform
-    400008: Fei_GO/Fei_GO/bone_1/bone_2/Transform
-    400010: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/Transform
-    400012: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_4/Transform
-    400014: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_4/bone_5/Transform
-    400016: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_4/bone_5/bone_6/Transform
-    400018: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_4/bone_5/bone_6/bone_7/Transform
-    400020: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_8/Transform
-    400022: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_8/bone_9/Transform
-    400024: Fei_GO/Fei_GO/bone_1/bone_2/bone_10/Transform
-    400026: Fei_GO/Fei_GO/bone_1/bone_2/bone_10/bone_11/Transform
-    400028: Fei_GO/Fei_GO/bone_1/bone_2/bone_10/bone_11/bone_12/Transform
-    400030: Fei_GO/Fei_GO/bone_1/bone_2/bone_13/Transform
-    400032: Fei_GO/Fei_GO/bone_1/bone_2/bone_13/bone_14/Transform
-    400034: Fei_GO/Fei_GO/bone_1/bone_2/bone_13/bone_14/bone_15/Transform
-    400036: Fei_GO/Fei_GO/bone_1/bone_16/Transform
-    400038: Fei_GO/Fei_GO/bone_1/bone_16/bone_17/Transform
-    400040: Fei_GO/Fei_GO/bone_1/bone_16/bone_17/bone_18/Transform
-    400042: Fei_GO/Fei_GO/bone_1/bone_19/Transform
-    400044: Fei_GO/Fei_GO/bone_1/bone_19/bone_20/Transform
-    400046: Fei_GO/Fei_GO/bone_1/bone_19/bone_20/bone_21/Transform
-    400048: Fei_GO/Fei_GO/hair/Transform
-    400050: Fei_GO/Fei_GO/head/Transform
-    400052: Fei_GO/Fei_GO/left_arm/Transform
-    400054: Fei_GO/Fei_GO/left_leg/Transform
-    400056: Fei_GO/Fei_GO/right_arm/Transform
-    400058: Fei_GO/Fei_GO/right_leg/Transform
-    400060: Fei_GO/Fei_GO/scarf/Transform
-    400062: Fei_GO/Fei_GO/staff/Transform
-    2800000: Fei
-    11400000: Fei_GO/Fei_GO/amulet/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400002: Fei_GO/Fei_GO/body/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400004: Fei_GO/Fei_GO/hair/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400006: Fei_GO/Fei_GO/head/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400008: Fei_GO/Fei_GO/left_arm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400010: Fei_GO/Fei_GO/left_leg/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400012: Fei_GO/Fei_GO/right_arm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400014: Fei_GO/Fei_GO/right_leg/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400016: Fei_GO/Fei_GO/scarf/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    21200000: Fei_GO/Fei_GO/amulet/SpriteRenderer
-    21200002: Fei_GO/Fei_GO/body/SpriteRenderer
-    21200004: Fei_GO/Fei_GO/hair/SpriteRenderer
-    21200006: Fei_GO/Fei_GO/head/SpriteRenderer
-    21200008: Fei_GO/Fei_GO/left_arm/SpriteRenderer
-    21200010: Fei_GO/Fei_GO/left_leg/SpriteRenderer
-    21200012: Fei_GO/Fei_GO/right_arm/SpriteRenderer
-    21200014: Fei_GO/Fei_GO/right_leg/SpriteRenderer
-    21200016: Fei_GO/Fei_GO/scarf/SpriteRenderer
-    21200018: Fei_GO/Fei_GO/staff/SpriteRenderer
-    21300000: staff
-    21300002: head
-    21300004: scarf
-    21300006: hair
-    21300008: right_arm
-    21300010: amulet
-    21300012: body
-    21300014: left_arm
-    21300016: right_leg
-    21300018: left_leg
-    100100000: Fei_GO
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Fei_GO/Fei_GO
+  - first:
+      1: 100002
+    second: Fei_GO/Fei_GO/amulet
+  - first:
+      1: 100004
+    second: Fei_GO/Fei_GO/body
+  - first:
+      1: 100006
+    second: Fei_GO/Fei_GO/bone_1
+  - first:
+      1: 100008
+    second: Fei_GO/Fei_GO/bone_1/bone_2
+  - first:
+      1: 100010
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_3
+  - first:
+      1: 100012
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_4
+  - first:
+      1: 100014
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_4/bone_5
+  - first:
+      1: 100016
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_4/bone_5/bone_6
+  - first:
+      1: 100018
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_4/bone_5/bone_6/bone_7
+  - first:
+      1: 100020
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_8
+  - first:
+      1: 100022
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_8/bone_9
+  - first:
+      1: 100024
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_10
+  - first:
+      1: 100026
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_10/bone_11
+  - first:
+      1: 100028
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_10/bone_11/bone_12
+  - first:
+      1: 100030
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_13
+  - first:
+      1: 100032
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_13/bone_14
+  - first:
+      1: 100034
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_13/bone_14/bone_15
+  - first:
+      1: 100036
+    second: Fei_GO/Fei_GO/bone_1/bone_16
+  - first:
+      1: 100038
+    second: Fei_GO/Fei_GO/bone_1/bone_16/bone_17
+  - first:
+      1: 100040
+    second: Fei_GO/Fei_GO/bone_1/bone_16/bone_17/bone_18
+  - first:
+      1: 100042
+    second: Fei_GO/Fei_GO/bone_1/bone_19
+  - first:
+      1: 100044
+    second: Fei_GO/Fei_GO/bone_1/bone_19/bone_20
+  - first:
+      1: 100046
+    second: Fei_GO/Fei_GO/bone_1/bone_19/bone_20/bone_21
+  - first:
+      1: 100048
+    second: Fei_GO/Fei_GO/hair
+  - first:
+      1: 100050
+    second: Fei_GO/Fei_GO/head
+  - first:
+      1: 100052
+    second: Fei_GO/Fei_GO/left_arm
+  - first:
+      1: 100054
+    second: Fei_GO/Fei_GO/left_leg
+  - first:
+      1: 100056
+    second: Fei_GO/Fei_GO/right_arm
+  - first:
+      1: 100058
+    second: Fei_GO/Fei_GO/right_leg
+  - first:
+      1: 100060
+    second: Fei_GO/Fei_GO/scarf
+  - first:
+      1: 100062
+    second: Fei_GO/Fei_GO/staff
+  - first:
+      4: 400000
+    second: Fei_GO/Fei_GO/Transform
+  - first:
+      4: 400002
+    second: Fei_GO/Fei_GO/amulet/Transform
+  - first:
+      4: 400004
+    second: Fei_GO/Fei_GO/body/Transform
+  - first:
+      4: 400006
+    second: Fei_GO/Fei_GO/bone_1/Transform
+  - first:
+      4: 400008
+    second: Fei_GO/Fei_GO/bone_1/bone_2/Transform
+  - first:
+      4: 400010
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/Transform
+  - first:
+      4: 400012
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_4/Transform
+  - first:
+      4: 400014
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_4/bone_5/Transform
+  - first:
+      4: 400016
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_4/bone_5/bone_6/Transform
+  - first:
+      4: 400018
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_4/bone_5/bone_6/bone_7/Transform
+  - first:
+      4: 400020
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_8/Transform
+  - first:
+      4: 400022
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_3/bone_8/bone_9/Transform
+  - first:
+      4: 400024
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_10/Transform
+  - first:
+      4: 400026
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_10/bone_11/Transform
+  - first:
+      4: 400028
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_10/bone_11/bone_12/Transform
+  - first:
+      4: 400030
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_13/Transform
+  - first:
+      4: 400032
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_13/bone_14/Transform
+  - first:
+      4: 400034
+    second: Fei_GO/Fei_GO/bone_1/bone_2/bone_13/bone_14/bone_15/Transform
+  - first:
+      4: 400036
+    second: Fei_GO/Fei_GO/bone_1/bone_16/Transform
+  - first:
+      4: 400038
+    second: Fei_GO/Fei_GO/bone_1/bone_16/bone_17/Transform
+  - first:
+      4: 400040
+    second: Fei_GO/Fei_GO/bone_1/bone_16/bone_17/bone_18/Transform
+  - first:
+      4: 400042
+    second: Fei_GO/Fei_GO/bone_1/bone_19/Transform
+  - first:
+      4: 400044
+    second: Fei_GO/Fei_GO/bone_1/bone_19/bone_20/Transform
+  - first:
+      4: 400046
+    second: Fei_GO/Fei_GO/bone_1/bone_19/bone_20/bone_21/Transform
+  - first:
+      4: 400048
+    second: Fei_GO/Fei_GO/hair/Transform
+  - first:
+      4: 400050
+    second: Fei_GO/Fei_GO/head/Transform
+  - first:
+      4: 400052
+    second: Fei_GO/Fei_GO/left_arm/Transform
+  - first:
+      4: 400054
+    second: Fei_GO/Fei_GO/left_leg/Transform
+  - first:
+      4: 400056
+    second: Fei_GO/Fei_GO/right_arm/Transform
+  - first:
+      4: 400058
+    second: Fei_GO/Fei_GO/right_leg/Transform
+  - first:
+      4: 400060
+    second: Fei_GO/Fei_GO/scarf/Transform
+  - first:
+      4: 400062
+    second: Fei_GO/Fei_GO/staff/Transform
+  - first:
+      28: 2800000
+    second: Fei
+  - first:
+      114: 11400000
+    second: Fei_GO/Fei_GO/amulet/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400002
+    second: Fei_GO/Fei_GO/body/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400004
+    second: Fei_GO/Fei_GO/hair/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400006
+    second: Fei_GO/Fei_GO/head/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400008
+    second: Fei_GO/Fei_GO/left_arm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400010
+    second: Fei_GO/Fei_GO/left_leg/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400012
+    second: Fei_GO/Fei_GO/right_arm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400014
+    second: Fei_GO/Fei_GO/right_leg/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400016
+    second: Fei_GO/Fei_GO/scarf/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      212: 21200000
+    second: Fei_GO/Fei_GO/amulet/SpriteRenderer
+  - first:
+      212: 21200002
+    second: Fei_GO/Fei_GO/body/SpriteRenderer
+  - first:
+      212: 21200004
+    second: Fei_GO/Fei_GO/hair/SpriteRenderer
+  - first:
+      212: 21200006
+    second: Fei_GO/Fei_GO/head/SpriteRenderer
+  - first:
+      212: 21200008
+    second: Fei_GO/Fei_GO/left_arm/SpriteRenderer
+  - first:
+      212: 21200010
+    second: Fei_GO/Fei_GO/left_leg/SpriteRenderer
+  - first:
+      212: 21200012
+    second: Fei_GO/Fei_GO/right_arm/SpriteRenderer
+  - first:
+      212: 21200014
+    second: Fei_GO/Fei_GO/right_leg/SpriteRenderer
+  - first:
+      212: 21200016
+    second: Fei_GO/Fei_GO/scarf/SpriteRenderer
+  - first:
+      212: 21200018
+    second: Fei_GO/Fei_GO/staff/SpriteRenderer
+  - first:
+      213: 21300020
+    second: cf44d545c95fd45ebbe99184aaac0a39
+  - first:
+      213: 21300022
+    second: 57b9ecaa719814f029e4e4686fd4d555
+  - first:
+      213: 21300024
+    second: 7e863db180b2541e3b7950b0d141b30e
+  - first:
+      213: 21300026
+    second: 962cb5a157b5742efa2b3a947d434e51
+  - first:
+      213: 21300028
+    second: 83f7e88a1e4f942b9abe24d6df284375
+  - first:
+      213: 21300030
+    second: 703d679467bb24490b735f5a5f7eab8d
+  - first:
+      213: 21300032
+    second: 12cc9c394e45346cab5b6d41032eb97e
+  - first:
+      213: 21300034
+    second: 84650b44e56734f278c2bc42a1aa93b9
+  - first:
+      213: 21300036
+    second: cf5beff8c01624c13a6de90188ee464b
+  - first:
+      213: 21300038
+    second: 38ccfbb4211824cda99aa288cb29f63e
+  - first:
+      1001: 100100000
+    second: Fei_GO
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -168,6 +359,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -191,6 +383,7 @@ ScriptedImporter:
       width: 145
       height: 1291
     spriteID: cf44d545c95fd45ebbe99184aaac0a39
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -212,6 +405,7 @@ ScriptedImporter:
       width: 1300
       height: 1208
     spriteID: 57b9ecaa719814f029e4e4686fd4d555
+    internalID: 0
     spriteBone:
     - name: bone_7
       position: {x: 149.02687, y: 0.0008187924, z: 0}
@@ -980,6 +1174,7 @@ ScriptedImporter:
       width: 412
       height: 481
     spriteID: 7e863db180b2541e3b7950b0d141b30e
+    internalID: 0
     spriteBone:
     - name: bone_2
       position: {x: 234.17157, y: 167.6482, z: 0}
@@ -1558,6 +1753,7 @@ ScriptedImporter:
       width: 236
       height: 302
     spriteID: 962cb5a157b5742efa2b3a947d434e51
+    internalID: 0
     spriteBone:
     - name: bone_9
       position: {x: 120.84829, y: 0.00010224788, z: 0}
@@ -2026,6 +2222,7 @@ ScriptedImporter:
       width: 361
       height: 598
     spriteID: 83f7e88a1e4f942b9abe24d6df284375
+    internalID: 0
     spriteBone:
     - name: bone_12
       position: {x: 186.32207, y: -0.00009783102, z: 0}
@@ -2549,6 +2746,7 @@ ScriptedImporter:
       width: 223
       height: 402
     spriteID: 703d679467bb24490b735f5a5f7eab8d
+    internalID: 0
     spriteBone:
     - name: bone_2
       position: {x: 62.17157, y: 201.6482, z: 0}
@@ -3201,6 +3399,7 @@ ScriptedImporter:
       width: 562
       height: 732
     spriteID: 12cc9c394e45346cab5b6d41032eb97e
+    internalID: 0
     spriteBone:
     - name: bone_1
       position: {x: 319.59357, y: 150.23083, z: 0}
@@ -3713,6 +3912,7 @@ ScriptedImporter:
       width: 253
       height: 543
     spriteID: 84650b44e56734f278c2bc42a1aa93b9
+    internalID: 0
     spriteBone:
     - name: bone_15
       position: {x: 163.5672, y: -0.00004000004, z: 0}
@@ -4286,6 +4486,7 @@ ScriptedImporter:
       width: 210
       height: 549
     spriteID: cf5beff8c01624c13a6de90188ee464b
+    internalID: 0
     spriteBone:
     - name: bone_18
       position: {x: 165.79729, y: -0.00012855207, z: 0}
@@ -4800,6 +5001,7 @@ ScriptedImporter:
       width: 214
       height: 542
     spriteID: 38ccfbb4211824cda99aa288cb29f63e
+    internalID: 0
     spriteBone:
     - name: bone_21
       position: {x: 137.39673, y: -0.00015928171, z: 0}
@@ -5620,5 +5822,6 @@ ScriptedImporter:
     index: 19
   - go: {fileID: 100046, guid: 11f8561e37dc241a2a5e29f925d39c10, type: 3}
     index: 20
-  firstCreate: 0
   generateGOHierarchy: 0
+  textureAssetName: Fei
+  prefabAssetName: Fei_GO

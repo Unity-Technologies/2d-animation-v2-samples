@@ -1,15 +1,27 @@
 fileFormatVersion: 2
 guid: 036e5d1dec89b4a449390d4d1288067f
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Rikr_Head
-    21300002: Rikr_Arm_L
-    21300004: Rikr_Leg_L
-    21300006: Rikr_Body
-    21300008: Rikr_Leg_R
-    21300010: Rikr_Arm_R
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Rikr_Head
+  - first:
+      213: 21300002
+    second: Rikr_Arm_L
+  - first:
+      213: 21300004
+    second: Rikr_Leg_L
+  - first:
+      213: 21300006
+    second: Rikr_Body
+  - first:
+      213: 21300008
+    second: Rikr_Leg_R
+  - first:
+      213: 21300010
+    second: Rikr_Arm_R
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -133,6 +145,7 @@ TextureImporter:
         length: 344.99634
         parentId: -1
       spriteID: 1fa14f0ecc1d047baba3c5787248de9a
+      internalID: 21300000
       vertices:
       - {x: 366.09497, y: 21.713013}
       - {x: 409.226, y: 28.994019}
@@ -852,6 +865,7 @@ TextureImporter:
         length: 125.26791
         parentId: 1
       spriteID: af3935f98099e483bb9eb69db9870e52
+      internalID: 21300002
       vertices:
       - {x: 178.22095, y: 35.221985}
       - {x: 189, y: 46.84601}
@@ -1377,6 +1391,7 @@ TextureImporter:
         length: 69.55143
         parentId: 2
       spriteID: 1c11afada94984f5c82b6a1788a219a1
+      internalID: 21300004
       vertices:
       - {x: 201.96497, y: 17.966003}
       - {x: 215.50403, y: 24.524994}
@@ -1886,6 +1901,7 @@ TextureImporter:
         length: 139.58289
         parentId: 0
       spriteID: f8b2352dee29b40b0bff6df309cb5784
+      internalID: 21300006
       vertices:
       - {x: 332.03802, y: 8.865997}
       - {x: 355.677, y: 13.118988}
@@ -2624,6 +2640,7 @@ TextureImporter:
         length: 63.34646
         parentId: 2
       spriteID: 821eee5804162472a9843e1fd580b39f
+      internalID: 21300008
       vertices:
       - {x: 188.65503, y: 23.987}
       - {x: 194, y: 42.110992}
@@ -3104,6 +3121,7 @@ TextureImporter:
         length: 128.67067
         parentId: 1
       spriteID: 7cfa198bfe26c468bac71e8143c1b197
+      internalID: 21300010
       vertices:
       - {x: 97.08301, y: 40.797974}
       - {x: 116.836, y: 43.335022}
@@ -3590,10 +3608,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 3c0a1b2701b2a45a0be7927d5e8185a7
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

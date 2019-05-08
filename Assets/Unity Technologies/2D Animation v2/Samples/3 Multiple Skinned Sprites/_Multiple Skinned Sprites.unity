@@ -54,7 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 10
+    serializedVersion: 12
     m_Resolution: 2
     m_BakeResolution: 40
     m_AtlasSize: 1024
@@ -62,6 +62,7 @@ LightmapSettings:
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
     m_Padding: 2
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
@@ -76,10 +77,16 @@ LightmapSettings:
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
     m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
     m_PVRFilterTypeDirect: 0
     m_PVRFilterTypeIndirect: 0
     m_PVRFilterTypeAO: 0
-    m_PVRFilteringMode: 1
+    m_PVREnvironmentMIS: 0
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
@@ -88,6 +95,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
+    m_ExportTrainingData: 0
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -278,6 +286,7 @@ GameObject:
   - component: {fileID: 705508308}
   - component: {fileID: 705508309}
   - component: {fileID: 705508310}
+  - component: {fileID: 705508311}
   m_Layer: 0
   m_Name: Rikr_Arm_R
   m_TagString: Untagged
@@ -368,6 +377,18 @@ MonoBehaviour:
   m_Bounds:
     m_Center: {x: 1.9765089, y: 0.14807516, z: 0}
     m_Extent: {x: 2.9428282, y: 1.0888814, z: 0}
+--- !u!114 &705508311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705508307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb6404781555c04b94d057ffb3676d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &736503465
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,6 +461,7 @@ GameObject:
   - component: {fileID: 1030226863}
   - component: {fileID: 1030226864}
   - component: {fileID: 1030226865}
+  - component: {fileID: 1030226866}
   m_Layer: 0
   m_Name: Rikr_Leg_L
   m_TagString: Untagged
@@ -531,6 +553,18 @@ MonoBehaviour:
   m_Bounds:
     m_Center: {x: 1.7385312, y: 0.098234534, z: 0}
     m_Extent: {x: 2.5685189, y: 1.3233736, z: 0}
+--- !u!114 &1030226866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030226862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb6404781555c04b94d057ffb3676d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1054372414
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,6 +640,7 @@ GameObject:
   - component: {fileID: 1233807738}
   - component: {fileID: 1233807739}
   - component: {fileID: 1233807740}
+  - component: {fileID: 1233807741}
   m_Layer: 0
   m_Name: Rikr_Head
   m_TagString: Untagged
@@ -694,6 +729,18 @@ MonoBehaviour:
   m_Bounds:
     m_Center: {x: 1.7293851, y: 0.2594607, z: 0}
     m_Extent: {x: 4.3526473, y: 3.2687113, z: 0}
+--- !u!114 &1233807741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233807737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb6404781555c04b94d057ffb3676d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1269573000
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,9 +860,10 @@ Camera:
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.1, g: 0.1, b: 0.1, a: 0}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -899,6 +947,7 @@ GameObject:
   - component: {fileID: 1488193667}
   - component: {fileID: 1488193668}
   - component: {fileID: 1488193669}
+  - component: {fileID: 1488193670}
   m_Layer: 0
   m_Name: Rikr_Leg_R
   m_TagString: Untagged
@@ -990,6 +1039,18 @@ MonoBehaviour:
   m_Bounds:
     m_Center: {x: 1.4548863, y: 0.06589377, z: 0}
     m_Extent: {x: 2.615943, y: 1.6118205, z: 0}
+--- !u!114 &1488193670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488193666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb6404781555c04b94d057ffb3676d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1493027428
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,6 +1217,7 @@ GameObject:
   - component: {fileID: 1954681253}
   - component: {fileID: 1954681254}
   - component: {fileID: 1954681255}
+  - component: {fileID: 1954681256}
   m_Layer: 0
   m_Name: Rikr_Body
   m_TagString: Untagged
@@ -1245,6 +1307,18 @@ MonoBehaviour:
   m_Bounds:
     m_Center: {x: 1.9796464, y: 0.31936646, z: 0}
     m_Extent: {x: 3.2412143, y: 3.3509564, z: 0}
+--- !u!114 &1954681256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954681252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb6404781555c04b94d057ffb3676d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1990969887
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,6 +1330,7 @@ GameObject:
   - component: {fileID: 1990969888}
   - component: {fileID: 1990969889}
   - component: {fileID: 1990969890}
+  - component: {fileID: 1990969891}
   m_Layer: 0
   m_Name: Rikr_Arm_L
   m_TagString: Untagged
@@ -1346,6 +1421,18 @@ MonoBehaviour:
   m_Bounds:
     m_Center: {x: 1.8013017, y: -0.010190189, z: 0}
     m_Extent: {x: 2.6857746, y: 0.95301723, z: 0}
+--- !u!114 &1990969891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990969887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb6404781555c04b94d057ffb3676d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2136883840
 GameObject:
   m_ObjectHideFlags: 0

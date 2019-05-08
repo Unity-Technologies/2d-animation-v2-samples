@@ -1,9 +1,9 @@
 fileFormatVersion: 2
 guid: fafd3ffdc7e064d67a2d3277e916184c
 TextureImporter:
-  fileIDToRecycleName: {}
+  internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -297,6 +297,7 @@ TextureImporter:
       length: 38.055325
       parentId: 16
     spriteID: 58452e435226746c7a9f1c864cb21777
+    internalID: 0
     vertices:
     - {x: 332.574, y: 9.7599945}
     - {x: 333.01, y: 9.9869995}
@@ -3080,6 +3081,7 @@ TextureImporter:
       boneIndex[1]: 0
       boneIndex[2]: 0
       boneIndex[3]: 0
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
