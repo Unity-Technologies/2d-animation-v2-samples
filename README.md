@@ -1,5 +1,5 @@
 # 2D Animation v2 Samples
-This repository contains samples for 2D Animation v2 features to be used with Unity 2018.3
+This Branch(2019.1/Samples) repository contains samples for 2D Animation v2 features to be used with Unity 2019.1
 
 ## In this version
 * A unified Skinning Editor module in the Sprite Editor window, giving you a much tighter sprite rigging iteration loop.
