@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "com.unity.2d.animation": "2.0.0-preview.1",
-    "com.unity.2d.ik": "1.0.7-preview.1",
-    "com.unity.2d.psdimporter": "1.0.0-preview.1",
+    "com.unity.2d.animation": "2.0.0-preview.3",
+    "com.unity.2d.ik": "1.0.8-preview.1",
+    "com.unity.2d.psdimporter": "1.0.0-preview.4",
     "com.unity.ads": "2.3.1",
     "com.unity.analytics": "3.2.2",
     "com.unity.collab-proxy": "1.2.15",
