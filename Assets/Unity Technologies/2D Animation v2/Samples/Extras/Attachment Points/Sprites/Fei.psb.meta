@@ -5523,6 +5523,9 @@ ScriptedImporter:
   importedTextureWidth: 1024
   importedTextureHeight: 2048
   documentSize: {x: 2141, y: 2705}
+  paperDollMode: 0
+  spriteLibrary:
+    categories: []
   textureActualWidth: 2048
   textureActualHeight: 4096
   spritePackingTag: 
@@ -5715,6 +5718,7 @@ ScriptedImporter:
         height: 1291
       spriteId: cf44d545c95fd45ebbe99184aaac0a39
       bones: 
+      parentGroup: 0
     - spritePosition:
         x: 360
         y: 1193
@@ -5722,6 +5726,7 @@ ScriptedImporter:
         height: 1208
       spriteId: 57b9ecaa719814f029e4e4686fd4d555
       bones: 0600000005000000040000000200000003000000
+      parentGroup: 0
     - spritePosition:
         x: 781
         y: 963
@@ -5729,6 +5734,7 @@ ScriptedImporter:
         height: 481
       spriteId: 7e863db180b2541e3b7950b0d141b30e
       bones: 01000000
+      parentGroup: 0
     - spritePosition:
         x: 627
         y: 1285
@@ -5736,6 +5742,7 @@ ScriptedImporter:
         height: 302
       spriteId: 962cb5a157b5742efa2b3a947d434e51
       bones: 0800000007000000
+      parentGroup: 0
     - spritePosition:
         x: 576
         y: 764
@@ -5743,6 +5750,7 @@ ScriptedImporter:
         height: 598
       spriteId: 83f7e88a1e4f942b9abe24d6df284375
       bones: 0b0000000a00000009000000
+      parentGroup: 0
     - spritePosition:
         x: 953
         y: 929
@@ -5750,6 +5758,7 @@ ScriptedImporter:
         height: 402
       spriteId: 703d679467bb24490b735f5a5f7eab8d
       bones: 01000000
+      parentGroup: 0
     - spritePosition:
         x: 691
         y: 660
@@ -5757,6 +5766,7 @@ ScriptedImporter:
         height: 732
       spriteId: 12cc9c394e45346cab5b6d41032eb97e
       bones: 0000000001000000
+      parentGroup: 0
     - spritePosition:
         x: 1092
         y: 788
@@ -5764,6 +5774,7 @@ ScriptedImporter:
         height: 543
       spriteId: 84650b44e56734f278c2bc42a1aa93b9
       bones: 0e0000000d0000000c000000
+      parentGroup: 0
     - spritePosition:
         x: 766
         y: 300
@@ -5771,6 +5782,7 @@ ScriptedImporter:
         height: 549
       spriteId: cf5beff8c01624c13a6de90188ee464b
       bones: 11000000100000000f000000
+      parentGroup: 0
     - spritePosition:
         x: 993
         y: 323
@@ -5778,7 +5790,9 @@ ScriptedImporter:
         height: 542
       spriteId: 38ccfbb4211824cda99aa288cb29f63e
       bones: 140000001300000012000000
+      parentGroup: 0
     dimension: {x: 0, y: 0}
+    characterGroups: []
   boneGOs:
   - go: {fileID: 100006, guid: 11f8561e37dc241a2a5e29f925d39c10, type: 3}
     index: 0
@@ -5825,3 +5839,4 @@ ScriptedImporter:
   generateGOHierarchy: 0
   textureAssetName: Fei
   prefabAssetName: Fei_GO
+  spriteLibAssetName: Sprite Lib
